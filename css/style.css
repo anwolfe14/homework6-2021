@@ -90,15 +90,21 @@ header{
 
 /*Keyframes for animation*/
 @-webkit-keyframes logo_grow{
-  from{width: 25px; opacity: 0;}
-  to{width: 420px; opacity: 1;}
+  from{
+    width: 25px; 
+    opacity: 0;}
+  to{
+    width: 420px;
+     opacity: 1;}
 }
 
 @keyframes logo_grow{
-  from{width: 25px; opacity: 0;}
-  to{width: 420px; opacity: 1;}
-  
-  
+  from{
+    width: 25px; 
+    opacity: 0;}
+  to{
+    width: 420px;
+     opacity: 1;}
 } 
 
 @media screen and (min-width: 850px){
@@ -147,7 +153,6 @@ header{
   .price{
     position: absoltue;
     bottom: 0;
-
   }
   /*Requirement 17*/
   .package{
