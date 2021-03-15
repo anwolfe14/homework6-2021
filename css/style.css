@@ -82,6 +82,7 @@ header{
 #logo{
    /*Your code here.*/
    animation-duration: 15s;
+   animation-iteration-count: 1;
    animation-name: logo_grow;
    -webkit-animation:logo_grow;
 
